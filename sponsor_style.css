@@ -1,0 +1,22 @@
+body {
+	background-color: lightblue;
+	color: white;
+}
+
+h1 {
+	text-align: center;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+div {
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	text-align: center;
+}
+
+<!--
+a {
+	font-size: 2em;
+	padding: 50px;
+}-->

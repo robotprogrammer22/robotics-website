@@ -1,0 +1,18 @@
+{"years":
+	{"year":"year1", "sponsors":
+		[
+			{"businessName":"business1", "website":"website1"}, 
+			{"businessName":"business2", "website":"website2"},
+			{"businessName":"business3", "website":"website3"},
+			{"businessName":"business4", "website":"website4"}
+		]
+	}, 
+	{"year":"year2", "sponsors": 
+		[
+			{"businessName":"business5", "website":"website5"},
+			{"businessName":"business6", "website":"website6"},
+			{"businessName":"business7", "website":"website7"},
+			{"businessName":"business8", "website":"website8"}
+		]
+	}
+}
