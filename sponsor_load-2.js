@@ -21,28 +21,6 @@ json_request.onload = function()
 
 function displayData(sponsor_obj)
 {
-	
-	// wrong format for javascript
-	// looks like can count elements using Object.keys(jsonObject).length
-	/*for object in json_data:
-		year = object.year;
-		sponsors = object.sponsors;
-	*/
-	// gets the json objects
-	//let years = sponsor_obj.years;
-	// get the year objects in the json file
-	// NEED TO GET VALUES FOR YEARS, NOT KEYS (this is years: {object}, need number of objects
-	// so just need to determine how to figure out how many values there are (so how many objects there are in the value
-	// should this json file just be an array then for the objects????
-	/*let object_keys = Object.keys(years);
-	let object_number = object_keys.length;
-	let i = 0;
-	for (i=0; i<object_number; i++)
-	{
-		object = object_keys
-	}*/
-	
-	// declare variables for later use
 	let year_object;
 	let year;
 	let sponsors;
@@ -73,10 +51,6 @@ function displayData(sponsor_obj)
 		// get number of sponsors
 		sponsors_length = sponsors.length;
 		//console.log("sponsors_length:" + sponsors_length);
-		
-		/*let business;
-		let businessName;
-		let website;*/
 		
 		// create header for year
 		let year_div = document.createElement('div');

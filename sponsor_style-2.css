@@ -16,7 +16,8 @@ div {
 	grid-template-columns: 1fr 1fr 1fr;
 	/*column-count: 3;*/
 	text-align: center;
-	/*align-items: center;*/
+	/*justify-items: center;
+	align-items: center;*/
 }
 
 /*h2.year {
@@ -25,11 +26,16 @@ div {
 }*/
 
 h2 {
+	/*display: flex;
+	justify-content: center;
+	align-items: center;*/
 	/*column-span: all;*/
 	/*column-count: 3;*/
 	/*column-span: 3;*/
 	/*column-span: 1/-1;*/
-	grid-column: span 1/-1;
+	/*grid-column: span 1/-1;*/
+	grid-column: span 1/4;
+	/*place-self: center;*/
 	/*align-self: center;*/
 	/*text-align: center;*/
 	/*justify-self: center;*/
@@ -38,6 +44,8 @@ h2 {
 	/*align-self: center;
 	align-items: center;*/
 	/*justify-self: center;*/
+	/*align-items: center;*/
+	/*justify-items: center;*/
 }
 
 a {
