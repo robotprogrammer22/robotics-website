@@ -15,6 +15,10 @@ window.onload = function()
 	home.appendChild(home_text);
 	home_element.title = "Home";
 	home.href = "index.html";
+	
+	list.appendChild(home_element);
+	
+	menu_div.appendChild(list);
 }
 
 /*
