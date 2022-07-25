@@ -7,17 +7,51 @@ window.onload = function()
 	let list = document.createElement('ul');
 
 	// home page
+	// creates home page menu elements
 	let home_element = document.createElement('li');
 	let home = document.createElement('a');
 	let home_text = document.createTextNode("Home");
 
+	// adds data to home page link elements
 	home_element.appendChild(home);
 	home.appendChild(home_text);
 	home_element.title = "Home";
 	home.href = "index.html";
 	
+	// adds home page link to menu
 	list.appendChild(home_element);
 	
+	// sponsors page
+	// creates sponsors page menu elements
+	let sponsors_menu_element = document.createElement('li');
+	let sponsors_page_link = document.createElement('a');
+	let sponsors_menu_text = document.createTextNode("Sponsors");
+	
+	// adds data to sponsors page link elements
+	sponsors_menu_element.appendChild(sponsors_page_link);
+	sponsors_page_link.appendChild(sponsors_menu_text);
+	sponsors_menu_element.title = "Sponsors";
+	sponsors_page_link.href = "sample_sponsors_page.html"
+	
+	// adds sponsors page link to menu
+	list.appendChild(sponsors_menu_element);
+	
+	// history page
+	// creates history page menu elements
+	let history_menu_element = document.createElement('li');
+	let history_page_link = document.createElement('a');
+	let history_menu_text = document.createTextNode("History");
+	
+	// adds data to history page link elements
+	history_menu_element.appendChild(history_page_link);
+	history_page_link.appendChild(history_menu_text);
+	history_menu_element.title = "History";
+	history_page_link.href = "history.html";
+	
+	// adds history page to menu elements
+	list.appendChild(history_menu_element);
+	
+	// adds all menu elements to the page
 	menu_div.appendChild(list);
 }
 
