@@ -51,6 +51,21 @@ window.onload = function()
 	// adds history page to menu elements
 	list.appendChild(history_menu_element);
 	
+	// building fund page
+	// creates building page menu elements
+	let building_menu_element = document.createElement('li');
+	let building_page_link = document.createElement('a');
+	let building_menu_text = document.createTextNode("Building Fund");
+	
+	// adds data to history page link elements
+	building_menu_element.appendChild(building_page_link);
+	building_page_link.appendChild(building_menu_text);
+	building_menu_element.title = "Building Fund";
+	building_page_link.href = "building_fund.html";
+	
+	// adds history page to menu elements
+	list.appendChild(building_menu_element);
+	
 	// adds all menu elements to the page
 	menu_div.appendChild(list);
 }

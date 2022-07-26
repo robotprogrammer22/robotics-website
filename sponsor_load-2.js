@@ -1,6 +1,6 @@
 const json_request = new XMLHttpRequest();
 
-const url = "sponsors-3.json";
+const url = "sponsors-5.json";
 json_request.open("GET", url, true);
 json_request.send();
 
