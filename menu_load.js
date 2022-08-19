@@ -1,5 +1,8 @@
 // going to make a div with html in it and add it to the div in the page using append
 
+
+// menu items: contact, calendar (use google calendar link so it stays up to date)
+
 window.onload = function()
 {
 	// selects the menu div and creates the unordered list
