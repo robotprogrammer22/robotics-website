@@ -11,8 +11,16 @@ ul {
 
 a {
 	color: white;
+	text-decoration: none;
+	padding: 2em;
+}
+
+a:hover {
+	color: yellow;
 }
 
 .navigation {
 	text-align: center;
+	font-weight: bold;
+	font-size: 20px; 
 }
