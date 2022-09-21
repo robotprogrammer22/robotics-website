@@ -13,8 +13,12 @@ h1 {
 	text-align: center;
 }
 
+h2 {
+	text-align: center;
+}
+
 div.text {
-	background-color: rgba(0,0,0,.30);
+	background-color: rgba(0,0,0,.50);
 }
 /* for text background, modify the content window to have background color, but change the opacity so it doesn't completely block, just makes it easier to read?
 also need to make image scale with page better and keep sticky? so it doesn't keep repeating? */

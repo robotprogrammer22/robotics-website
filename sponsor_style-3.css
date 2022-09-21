@@ -31,7 +31,7 @@ h1 {
 	grid-template-columns: 1fr 1fr 1fr;
 	text-align: center;
 	text-shadow: 2px 2px #000000;
-	background-color: rgba(0,0,0,.25);
+	background-color: rgba(0,0,0,.3);
 	/*text-shadow: 2px 2px #c9c6c5;*/
 	/*text-shadow: 2px 2px #a6a3a2;*/
 }
