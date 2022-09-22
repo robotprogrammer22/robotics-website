@@ -1,6 +1,7 @@
 body {
 	background-image: url("website_background-2.png");
-	background-size: cover;
+	background-size: contain;
+	/* was set to cover*/
 	/*background-position: center;*/
 	color: white;
 }
