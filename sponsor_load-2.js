@@ -31,6 +31,13 @@ function displayData(sponsor_obj)
 	
 	// gets the sponsors div from the html page
 	const sponsors_div = document.getElementById("sponsors");
+	
+	// gets the javascript warning message and removes it
+	const warning_delete = document.getElementById("java_warning");
+	warning_delete.remove();
+	console.log("javascript disabled warning removed");
+	
+	
 	// declares variable for later use
 	
 	// gets the years from years
