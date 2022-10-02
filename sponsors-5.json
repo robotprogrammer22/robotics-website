@@ -1,5 +1,10 @@
 {"years":
-	[{"year":"2022", "sponsors":
+	[{"year":"2023", "sponsors":
+		[
+			{"businessName": "2023 Sponsors Coming Soon!", "website":"null"}
+		]
+	},
+	{"year":"2022", "sponsors":
 		[
 			{"businessName":"Kingman Unified School District", "website":"null"}, 
 			{"businessName":"Kingman Academy of Learning", "website":"null"},
@@ -32,9 +37,7 @@
 	{"year":"2020/2021", "sponsors": 
 		[
 			{"businessName":"West Coast Netting", "website":"null"},
-			{"businessName":"business6", "website":"website6"},
-			{"businessName":"business7", "website":"website7"},
-			{"businessName":"business8", "website":"website8"}
+			{"businessName":"more sponsors coming soon!", "website":"null"}
 		]
 	}]
 }
