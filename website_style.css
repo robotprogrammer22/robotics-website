@@ -1,6 +1,8 @@
 body {
 	background-image: url("website_background-2.png");
 	background-size: cover;
+	background-position: top center;
+	background-attachment: fixed;
 	/* contain seems to do a grid */
 	/* was set to cover*/
 	/*background-position: center;*/
