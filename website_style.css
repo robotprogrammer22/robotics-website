@@ -24,8 +24,18 @@ h2 {
 div.text {
 	background-color: rgba(0,0,0,.50);
 }
+
 /* for text background, modify the content window to have background color, but change the opacity so it doesn't completely block, just makes it easier to read?
 also need to make image scale with page better and keep sticky? so it doesn't keep repeating? */
+
+
+.center {
+	text-align: center;
+}
+
+div.video {
+	text-align: center;
+}
 
 #robots_grid {
 	display: grid;
