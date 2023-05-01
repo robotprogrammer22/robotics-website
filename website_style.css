@@ -33,6 +33,10 @@ also need to make image scale with page better and keep sticky? so it doesn't ke
 	text-align: center;
 }
 
+.bold {
+	font-weight: bold;
+}
+
 div.video {
 	text-align: center;
 }
