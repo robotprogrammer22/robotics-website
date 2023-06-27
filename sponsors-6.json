@@ -1,0 +1,22 @@
+{"years":
+	[{"year":"2024", "sponsors":
+		[
+			{"businessName": "business 1", "website":"website1", "rank": "gold"},
+			{"businessName": "business 2", "website":"website2", "rank": "titanium"},
+			{"businessName": "business 3", "website":"website3", "rank": "silver"},
+			{"businessName": "business 4", "website":"website4", "rank": "none"},
+			{"businessName": "business 5", "website":"website5", "rank": "bronze"},
+			{"businessName": "business 6", "website":"null", "rank": "platinum"}
+		]
+	},
+	{"year":"2024-2", "sponsors":
+		[
+			{"businessName":"business7", "website":"null", "rank": "TITANIUM"}, 
+			{"businessName":"business8", "website":"null", "rank": "GOLD"},
+			{"businessName":"business9", "website":"null", "rank": "BRONZE"},
+			{"businessName":"business10", "website":"null", "rank": "NONE"},
+			{"businessName":"business11", "website":"null", "rank": "SILVER"},
+			{"businessName":"business12", "website":"null", "rank": "PLATINUM"},
+		]
+	}]
+}
