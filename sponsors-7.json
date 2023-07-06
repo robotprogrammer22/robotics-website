@@ -1,0 +1,121 @@
+{"years":
+	[
+		{"year":"2024", "type": "ranked", "sponsors_ranks":
+			[
+				{"rank": "titanium", "sponsors":
+					[
+						{"businessName": "business 1", "website":"website1"},
+						{"businessName": "business 2", "website":"website2"}
+					]
+				},
+				{"rank": "platinum", "sponsors":
+					[
+						{"businessName": "business 3", "website":"website3"},
+						{"businessName": "business 4", "website":"null"}
+					]
+				},
+				{"rank": "gold", "sponsors":
+					[
+						{"businessName": "business 5", "website":"website5"},
+						{"businessName": "business 6", "website":"website6"}
+					]
+				},
+				{"rank": "silver", "sponsors":
+					[
+						{"businessName": "business 7", "website":"website7"},
+						{"businessName": "business 8", "website":"null"}
+					]
+				},
+				{"rank": "bronze", "sponsors":
+					[
+						{"businessName": "business 9", "website":"null"},
+						{"businessName": "business 10", "website":"null"}
+					]
+				},
+				{"rank": "other", "sponsors":
+					[
+						{"businessName": "business 11", "website":"website11"},
+						{"businessName": "business 12", "website":"null"}
+					]
+				}
+			]
+		},
+		{"year":"2024-2", "type": "ranked", "sponsors_ranks":
+			[
+				{"rank": "titanium", "sponsors":
+					[
+						{"businessName": "business 13", "website":"website13"},
+						{"businessName": "business 14", "website":"website14"}
+					]
+				},
+				{"rank": "platinum", "sponsors":
+					[
+						{"businessName": "business 15", "website":"website15"},
+						{"businessName": "business 16", "website":"null"}
+					]
+				},
+				{"rank": "gold", "sponsors":
+					[
+						{"businessName": "business 17", "website":"null"},
+						{"businessName": "business 18", "website":"null"}
+					]
+				},
+				{"rank": "silver", "sponsors":
+					[
+						{"businessName": "business 19", "website":"null"},
+						{"businessName": "business 20", "website":"null"}
+					]
+				},
+				{"rank": "bronze", "sponsors":
+					[
+						{"businessName": "business 21", "website":"null"},
+						{"businessName": "business 22", "website":"null"}
+					]
+				},
+				{"rank": "other", "sponsors":
+					[
+						{"businessName": "business 23", "website":"null"},
+						{"businessName": "business 24", "website":"null"}
+					]
+				}
+			]
+		},
+		{"year":"2024-3", "type": "ranked", "sponsors_ranks":
+			[
+				{"rank": "titanium", "sponsors":
+					null
+				},
+				{"rank": "platinum", "sponsors":
+					[
+						{"businessName": "business 25", "website":"website25"},
+						{"businessName": "business 26", "website":"null"}
+					]
+				},
+				{"rank": "gold", "sponsors":
+					null
+				},
+				{"rank": "silver", "sponsors":
+					[
+						{"businessName": "business 27", "website":"null"},
+						{"businessName": "business 28", "website":"null"}
+					]
+				},
+				{"rank": "bronze", "sponsors":
+					null
+				},
+				{"rank": "other", "sponsors":
+					[
+						{"businessName": "business 29", "website":"null"},
+						{"businessName": "business 30", "website":"null"}
+					]
+				}
+			]
+		},
+		{"year":"2024-4", "type": "unranked", "sponsors":
+			[
+				{"businessName":"business 31", "website":"website31"},
+				{"businessName":"business 32", "website":"null"}
+			]
+		}
+	]
+}

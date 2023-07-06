@@ -19,6 +19,11 @@ script needs to be able to go through and place each one in the proper category,
 	or do money amount in file and then put into place depending on that (privacy though could be a problem there)
 script needs to ignore upper/lower case inside of rank spot. This will mess up sorting.
 
+if rank is missing, just put all into a general sponsors category?
+or just check for a value to see if ranked or just a list and add this to json
+
+do we want to have a collapsable menu for older sponsors? like, click to expand or just have it show by default?
+
 options: either place each element in the proper category as it goes, or sort/look for certain values, then place all of that group in at the same time
 do we want to sort by donation amount in each category? or just let that go by order of document as long as sorted into proper category
 could make an array of all json elements, and have an array for each category that gets sorted through first, then fill spaces
@@ -28,6 +33,12 @@ need to have a way to preserve some of the older sponsors listing without ranks,
 	same would keep it easier to update. Could just add a name in the json so that it's easily sortable
 	
 will either need bubble sort algorithm, or just a script that goes through one by one and adds to array, then iterates through each array before filling the page
+
+
+json file could have sorting already done. So there will be categories based on year instead of just randomly added with a rank.
+	new sponsors would have to be put into the right category, and if there is nothing a null value will be used?
+	this would create more work on the initial input end, but the json overall will likely be easier to read and evaluate than
+	just a huge list. This would also take away the need to sort in javascript, speeding up script processing time (if this even matters)
 */
 
 
@@ -63,6 +74,7 @@ function displayData(sponsor_obj)
 	let business;
 	let businessName;
 	let website;
+	let sponsor_rank;
 	
 	// gets the sponsors div from the html page
 	const sponsors_div = document.getElementById("sponsors");
@@ -115,6 +127,9 @@ function displayData(sponsor_obj)
 			website = business.website;
 			//console.log("business:" + businessName);
 			//console.log("website:" + website);
+			sponsor_rank = business.rank;
+			//console.log("rank:" + sponsor_rank);
+			
 			
 			let new_link = document.createElement('a');
 			let link_text = document.createTextNode(businessName);
