@@ -192,7 +192,7 @@ function displayData(sponsor_obj)
 				//console.log(rank);
 				
 				sponsors = rank_element.sponsors;
-				console.log(sponsors);
+				//console.log(sponsors);
 				
 				if (rank == "titanium" && sponsors != null)
 				{
