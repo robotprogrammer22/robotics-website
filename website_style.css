@@ -21,8 +21,12 @@ h2 {
 	text-align: center;
 }
 
+p {
+	font-size: 20px;
+}
+
 div.text {
-	background-color: rgba(0,0,0,.50);
+	background-color: rgba(0,0,0,.60);
 }
 
 /* for text background, modify the content window to have background color, but change the opacity so it doesn't completely block, just makes it easier to read?
