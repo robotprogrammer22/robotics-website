@@ -46,7 +46,7 @@ json file could have sorting already done. So there will be categories based on 
 
 const json_request = new XMLHttpRequest();
 
-const url = "sponsors-8.json";
+const url = "sponsors-9.json";
 json_request.open("GET", url, true);
 json_request.send();
 

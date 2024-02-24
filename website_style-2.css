@@ -1,0 +1,81 @@
+body {
+	/*background-image: url("website_background-2.png");*/
+    background-color: #29469b;
+	background-size: cover;
+	background-position: top center;
+	background-attachment: fixed;
+	/* contain seems to do a grid */
+	/* was set to cover*/
+	/*background-position: center;*/
+	color: white;
+}
+
+iframe {
+	border: none;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+p {
+	font-size: 20px;
+}
+
+div.text {
+	background-color: rgba(0,0,0,.40);
+}
+
+/* for text background, modify the content window to have background color, but change the opacity so it doesn't completely block, just makes it easier to read?
+also need to make image scale with page better and keep sticky? so it doesn't keep repeating? */
+
+
+.center {
+	text-align: center;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+div.video {
+	text-align: center;
+}
+
+#robots_grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	text-align: center;
+	text-shadow: 1px 1px #000000;
+	/*background-color: rgba(0,0,0,.3);*/
+}
+
+#underline_link {
+	text-decoration: underline;
+}
+
+h3 {
+	text-align: center;
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	color: yellow;
+}
+
+img.centerimg {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a.large_link {
+	font-size: 25px;
+}
