@@ -2,8 +2,20 @@
 	[
         {"year":"2025", "type": "unranked", "sponsors":
 			[
-				{"businessName": "Hot Rock Hobbies", "website":"null"},
-                {"businessName": "KRMC Foundation", "website":"null"}
+				{"businessName": "Mohave County Superintendent of Schools", "website":"null"},
+                {"businessName": "American WoodMark", "website":"null"},
+                {"businessName": "Preston Investments", "website":"null"},
+                {"businessName": "FIRST", "website":"null"},
+                {"businessName": "Optimum", "website":"null"},
+                {"businessName": "Hot Rock Hobbies", "website":"null"},
+                {"businessName": "KRMC Foundation", "website":"null"},
+                {"businessName": "Brackett Aircraft", "website":"null"},
+                {"businessName": "Brackett Airfilters", "website":"null"},
+                {"businessName": "CanTec", "website":"null"},
+                {"businessName": "Coast Aluminum Inc", "website":"null"},
+                {"businessName": "Maximum Electric", "website":"null"},
+                {"businessName": "I-Corp", "website":"null"},
+                {"businessName": "Patriot Environmental", "website":"null"}   
 			]
 		},
 		{"year":"2024", "type": "unranked", "sponsors":
