@@ -28,11 +28,11 @@ so default = open
 
 function main()
 {
-    console.log("menu javascript loaded");
+    //console.log("menu javascript loaded");
     const menu_doc = document.getElementById("mobile_menu");
-    console.log("mobile_menu: " + menu_doc);
+    //console.log("mobile_menu: " + menu_doc);
     const nav_button = document.getElementById("hamburger");
-    console.log("nav_button: " + nav_button);
+    //console.log("nav_button: " + nav_button);
     if (nav_button != null)
     {
         console.log("not null");
@@ -42,7 +42,7 @@ function main()
 
 const nav_button_clicked = () =>
 {
-    console.log("hamburger clicked");
+    //console.log("hamburger clicked");
     const mobile_menu = document.getElementById("mobile_menu_list");
     //console.log("mobile_menu: " + mobile_menu)
     if (mobile_menu != null)
