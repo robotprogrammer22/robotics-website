@@ -79,6 +79,14 @@ also need to make image scale with page better and keep sticky? so it doesn't ke
 	text-align: center;
 }
 
+.left {
+	text-align: left;
+}
+
+.right {
+	text-align: right;
+}
+
 .bold {
 	font-weight: bold;
 }

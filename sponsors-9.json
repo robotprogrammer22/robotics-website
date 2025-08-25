@@ -1,5 +1,15 @@
 {"years":
 	[
+        {"year":"2026", "type": "unranked", "sponsors":
+			[
+                {"businessName": "Optimum", "website":"null"},
+                {"businessName": "KRMC Foundation", "website":"null"},
+                {"businessName": "Brackett Aircraft", "website":"null"},
+                {"businessName": "Brackett Aero Filters", "website":"null"},
+                {"businessName": "Friends of the Mohave County Animal Shelter", "website":"null"},
+                {"businessName": "Desert De Oro Foods", "website":"null"}   
+			]
+		},
         {"year":"2025", "type": "unranked", "sponsors":
 			[
 				{"businessName": "Mohave County Superintendent of Schools", "website":"null"},
@@ -11,7 +21,7 @@
                 {"businessName": "Hot Rock Hobbies", "website":"null"},
                 {"businessName": "KRMC Foundation", "website":"null"},
                 {"businessName": "Brackett Aircraft", "website":"null"},
-                {"businessName": "Brackett Airfilters", "website":"null"},
+                {"businessName": "Brackett Aero Filters", "website":"null"},
                 {"businessName": "CanTec", "website":"null"},
                 {"businessName": "Coast Aluminum Inc", "website":"null"},
                 {"businessName": "Maximum Electric", "website":"null"},
@@ -38,7 +48,7 @@
                 {"businessName": "Purvis/BBC", "website":"null"},
                 {"businessName": "I-Corp", "website":"null"},
                 {"businessName": "Brackett Aircraft", "website":"null"},
-                {"businessName": "Brackett Airfilters", "website":"null"},
+                {"businessName": "Brackett Aero Filters", "website":"null"},
                 {"businessName": "Lehr Architecture", "website":"null"},
                 {"businessName": "Leggett Engineering Inc.", "website":"null"},
                 {"businessName": "Carlton Surveying", "website":"null"},
@@ -69,7 +79,7 @@
                 {"businessName": "Purvis/BBC", "website":"null"},
                 {"businessName": "iCorp", "website":"null"},
                 {"businessName": "Brackett Aircraft", "website":"null"},
-                {"businessName": "Brackett Airfilters", "website":"null"},
+                {"businessName": "Brackett Aero Filters", "website":"null"},
                 {"businessName": "Lehr Architecture", "website":"null"},
                 {"businessName": "Leggett Engineering Inc.", "website":"null"},
                 {"businessName": "Carlton Surveying", "website":"null"},
@@ -92,7 +102,7 @@
                 {"businessName":"Kingman Unified School District", "website":"null"}, 
                 {"businessName":"Kingman Academy of Learning", "website":"null"},
                 {"businessName":"Brackett Aircraft", "website":"null"},
-                {"businessName":"Brackett Airfilters", "website":"null"},
+                {"businessName":"Brackett Aero Filters", "website":"null"},
                 {"businessName":"Leggett Engineering Inc.", "website":"null"},
                 {"businessName":"Kingman and Mohave Manufacturing Association", "website":"null"},
                 {"businessName":"CallCenters USA", "website":"null"},
