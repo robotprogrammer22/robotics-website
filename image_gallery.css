@@ -1,0 +1,28 @@
+@media screen and (max-width: 1429px)
+{
+    div.gallery {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1429px)
+{
+    div.gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        text-align: center;
+    }
+}
+
+div.gallery-photo {
+    margin: 100px;
+    /*border: 1px solid #061995;*/
+    width: 180px;
+}
+
+div.gallery-photo img {
+    max-width: 200%;
+    height: auto;
+}
