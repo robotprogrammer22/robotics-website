@@ -1,5 +1,6 @@
 body {
-	background-image: url("website_background-2.png");
+	/*background-image: url("website_background-2.png");*/
+	background-color: rgb(0, 20, 180);
 	background-size: cover;
 	background-position: top center;
 	background-attachment: fixed;
@@ -15,6 +16,10 @@ body {
 	{
 		display: none;
 	}
+
+	#mobile_menu_list {
+		font-size: 25px;
+	}
 }
 
 @media screen and (min-width: 1150px)
@@ -24,10 +29,21 @@ body {
 		display: none;
 	}
 
+	.mobile_title
+	{
+		display: none;
+	}
+
 	/*.menu
 	{
 		display: inline;
 	}*/
+}
+
+.mobile_title {
+	font-size: 60px;
+	text-align: center;
+	color: gold;
 }
 
 /*@media (max-width: 600px), screen and (orientation: portrait)
@@ -140,4 +156,14 @@ a.large_link {
 
 .menu_shown {
     display: block;
+}
+
+.large_banner {
+	color: gold;
+	font-size: 30px;
+}
+
+.title {
+	font-size: 40px;
+	color: gold;
 }

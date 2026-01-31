@@ -1,4 +1,4 @@
-h1 {
+h1:not(.mobile_title) {
 	text-align: center;
 	font-weight: bold;
 	text-decoration: underline;

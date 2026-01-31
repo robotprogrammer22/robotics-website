@@ -42,28 +42,35 @@ json file could have sorting already done. So there will be categories based on 
 */
 
 
+//const page_loaded = false;
+
+document.addEventListener("DOMContentLoaded", (event) => {
+	console.log("page fully loaded");
+//	page_loaded = true;
 
 
-const json_request = new XMLHttpRequest();
+	const json_request = new XMLHttpRequest();
 
-const url = "sponsors-9.json";
-json_request.open("GET", url, true);
-json_request.send();
+	const url = "sponsors-9.json";
+	json_request.open("GET", url, true);
+	json_request.send();
 
-json_request.onload = function()
-{
-	// parses the json result
-	let sponsor_data = JSON.parse(json_request.response);
-	// if there's sponsor data, run the code, if not, display an error
-	if (sponsor_data != null)
+	json_request.onload = function()
 	{
-		displayData(sponsor_data);
-	}
-	else
-	{
-		console.log("error displaying sponsor data");
-	}
-}
+		console.log("sponsor file loaded");
+		// parses the json result
+		let sponsor_data = JSON.parse(json_request.response);
+		// if there's sponsor data, run the code, if not, display an error
+		if (sponsor_data != null)
+		{
+			displayData(sponsor_data);
+		}
+		else
+		{
+			console.log("error displaying sponsor data");
+		}
+	};
+});
 
 function fillRankedDiv(sponsors, rank_div)
 {
@@ -136,6 +143,7 @@ function displayData(sponsor_obj)
 	
 	// gets the javascript warning message and removes it
 	const warning_delete = document.getElementById("java_warning");
+	console.log(warning_delete);
 	warning_delete.remove();
 	console.log("javascript disabled warning removed");
 	

@@ -2,11 +2,15 @@
 	[
         {"year":"2026", "type": "unranked", "sponsors":
 			[
+                {"businessName": "American WoodMark", "website":"null"},
                 {"businessName": "Optimum", "website":"null"},
+                {"businessName": "Mohave County Superintendent of Schools", "website":"null"},
+                {"businessName": "Arizona @ Work Innovative Workforce Solutions", "website":"null"},
                 {"businessName": "KRMC Foundation", "website":"null"},
                 {"businessName": "Brackett Aircraft", "website":"null"},
                 {"businessName": "Brackett Aero Filters", "website":"null"},
                 {"businessName": "Friends of the Mohave County Animal Shelter", "website":"null"},
+                {"businessName": "Westlake Pipe and Fittings", "website":"null"},
                 {"businessName": "Desert De Oro Foods", "website":"null"}   
 			]
 		},

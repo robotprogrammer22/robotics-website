@@ -1,3 +1,9 @@
+.title {
+	font-size: 25px;
+	text-align: center;
+	color: gold;
+}
+
 ul.menu{
 	list-style-type: none;
 	margin: 0;
@@ -22,5 +28,9 @@ a:hover {
 .navigation {
 	text-align: center;
 	font-weight: bold;
-	font-size: 20px; 
+	font-size: 20px;
+}
+
+body {
+	overflow: hidden;
 }
