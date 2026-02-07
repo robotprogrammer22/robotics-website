@@ -20,6 +20,11 @@ body {
 	#mobile_menu_list {
 		font-size: 25px;
 	}
+
+	.columns {
+		columns: 1;
+	}
+	
 }
 
 @media screen and (min-width: 1150px)
@@ -32,6 +37,10 @@ body {
 	.mobile_title
 	{
 		display: none;
+	}
+
+	.columns {
+		columns: 2;
 	}
 
 	/*.menu
