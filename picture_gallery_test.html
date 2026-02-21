@@ -7,6 +7,7 @@
 		<link rel="stylesheet" href="website_style-3.css">
 		<link rel="stylesheet" href="image_gallery.css">
 		<script src="menu_mobile_fill.js"></script>
+		<script src="picture_gallery.js"></script>
 	</head>
 	<body>
 		<div class="menu">
@@ -97,6 +98,31 @@
 			<div class="video">
 				<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/9keeDyFxzY4?si=MFycvzSduzVH2R_m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 			</div>
+			<br>
+			<br>
+			<div class="slideshow">
+				<div class="slides">
+					<div class="slideshow-picture">
+						<img src="images/2024/Team_60_robotics-Vegas_2024-11.jpg" alt="2024 robot scoring a ring into the goal">
+						<div class="photo-caption">Photo description goes here</div>
+					</div>
+				</div>
+				<div class="slides">
+					<div class="slideshow-picture">
+						<img src="images/2024/Team_60_robotics-Vegas_2024-2.jpg" alt="2024 robot scoring a ring into the goal">
+						<div class="photo-caption">Photo description goes here</div>
+					</div>
+				</div>
+					<a class="previous" onclick="previousSlide()">&#10094;</a>
+					<a class="next" onclick="nextSlide()">&#10095;</a>
+
+				<div class="slide-dots">
+					<span class="dot" onclick="setSlide(1)"></span>
+					<span class="dot" onclick="setSlide(2)"></span>
+				</div>
+				
+			</div>
+
 			<br><br>
 			<div class="pictures">
 				<div class="picture-column">
