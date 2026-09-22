@@ -58,6 +58,7 @@ div.gallery-photo img {
     max-width: 1000px;
     position: relative;
     margin: auto;
+    text-align: center;
 }
 
 .slides {
@@ -84,7 +85,7 @@ div.gallery-photo img {
     border-radius: 3px 0 0 3px;
 }
 
-.prev:hover, .next:hover {
+.previous:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
 }
 
@@ -116,4 +117,9 @@ div.gallery-photo img {
 .slides {
     animation-name: fade;
     animation-duration: 1.5s;
+}
+
+@keyframes slides {
+    from {opacity: .4}
+    to {opacity: 1}
 }
