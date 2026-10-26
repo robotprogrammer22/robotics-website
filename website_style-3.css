@@ -25,6 +25,11 @@ body {
 		columns: 1;
 	}
 	
+	#hamburger {
+		width: 10%;
+		height: auto;
+		max-width: 200px;
+	}
 }
 
 @media screen and (min-width: 1150px)

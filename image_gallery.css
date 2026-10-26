@@ -65,7 +65,7 @@ div.gallery-photo img {
     display:none
 }
 
-.previous .next {
+.previous, .next {
     cursor: pointer;
     position: absolute;
     top: 50%;
