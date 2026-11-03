@@ -85,6 +85,11 @@ div.gallery-photo img {
     border-radius: 3px 0 0 3px;
 }
 
+.previous {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
 .previous:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
 }
